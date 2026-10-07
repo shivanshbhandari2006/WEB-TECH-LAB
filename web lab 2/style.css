@@ -1,0 +1,72 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+header {
+    height: 100px;
+    background-color: #062650;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+ 
+#logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+ 
+header h1 {
+    font-size: 28px;
+}
+
+ 
+nav {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+ 
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 17px;
+}
+
+ 
+nav a:hover {
+    background-color: #555;
+}
+
+ 
+nav a:last-child {
+    margin-left: auto;
+    background-color:  red;
+}
+
+ 
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+main h2 {
+    margin: 20px 0 10px;
+    color:  blue;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
